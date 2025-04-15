@@ -1,0 +1,18 @@
+{
+  "name": "Python Class Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "extensions": [
+    "formulahendry.code-runner"
+  ],
+  "settings": {
+    "terminal.integrated.enable": false,
+    "code-runner.runInTerminal": false,
+    "editor.fontSize": 12,
+    "extensions.disableInstallation": true,
+    "extensions.ignoreRecommendations": true,
+    "debug.showInStatusBar": "never",
+    "debug.openDebug": "neverOpen",
+    "python.linting.enabled": false
+  },
+  "postCreateCommand": "./.devcontainer/init.sh"
+}
